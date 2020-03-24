@@ -1,0 +1,71 @@
+*{
+    text-decoration: none;
+}
+body{
+  background-color: rgb(255, 141, 141);
+}
+.center-screen{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+
+.main-box{
+    width: 100%;
+    box-shadow: 0px 0px 5px 3px gray;
+    margin: 0 auto !important;
+    padding: 45px 35px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    transition: all ease-in-out 0.5s;
+}
+.main-box:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 5px 3px rgb(56, 52, 52);
+}
+.URL-Head{
+    font-weight: 500;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 25px;
+    border: 2px dashed gray;
+}
+.URL-Footer{
+    font-weight: 500;
+    font-size: 20px;
+    padding: 10px 0px;
+    text-align: center;
+    margin-top: 10px;
+    border: 2px dashed gray;
+}
+.exit-icon-box{
+    width: 55px;
+    margin: 0px auto;
+    border: 1px dashed gray;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    font-size: 25px;
+    transition: all ease-in-out 0.3s;
+}
+.exit-icon-box:hover{
+    background-color: pink;
+}
+.head-style{
+    text-shadow: 0px 0px 3px red;
+}
+.status{
+    width: 120px;
+    border: 1px dashed green;
+    font-size: 18px;
+    font-weight: 500;
+    color: green;
+    padding: 5px 0px;
+    margin: 0px auto;
+}
+.disable-icon{
+    cursor: no-drop !important;
+}
